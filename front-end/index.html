@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/modal.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="top-wizard">
+            <div class="row m-b-lg">
+                <div class="col-xs-12 text-center">
+                    <h2 id="header">Driver</h2>
+                </div>
+            </div>
+        </div>
+        <div id="middle-wizard">
+            <div class="form_wrapper">
+                <button class="complete-button" id="Driver">Add a Driver</button>
+                <button class="complete-button" id="NonDrivingHousehold">Add a Non-Driving Household Member</button>
+                <br>
+                <br>
+                <div id="vehicle-form1" class="vehicle-form"></div>
+                <div id="vehicle-form2" class="vehicle-form"></div>
+                <div id="data-validation" class="modal">
+                    <h4 id="modal-header">Data Invalid</h4>
+                    <div id="modal-content">
+                    </div>
+                    <a href="#" rel="modal:close" class="modal-button" id="modal-button">Okay</a>
+                </div>
+            </div>
+            <div class="form_wrapper" id="total-members" style="visibility: hidden;">
+                <ul>
+                    <li>
+                        <h4>Drivers</h4>
+                        <div>
+                            <ul id="driver-list"></ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Household Members</h4>
+                        <div>
+                            <ul id="household-list"></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src='./js/modal.js'></script>
+        <script src='./js/app.js'></script>
+</html>
