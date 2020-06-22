@@ -8,5 +8,6 @@
 
 ##### If the user has selected a driver, then the form will look as such:
 
+![image](https://user-images.githubusercontent.com/40578449/85238546-8778a400-b3e3-11ea-9b84-4c2c91dd911a.PNG)
 
 ##### This project is built using JavaScript, jQuery, Ajax, Node.js, Express, and MongoDB. 
