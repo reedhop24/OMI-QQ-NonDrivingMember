@@ -171,10 +171,12 @@ $('Document').ready(() => {
         }).done((res) => {
             $('#vehicle-form1').empty();
             $('#vehicle-form2').empty();
+            $('#Driver').css({'background': '#00aeef', 'color': '#fff'});
+            $('#NonDrivingHousehold').css({'background': '#fff', 'color': '#00aeef'});
             newDriver = new RenderDriver(res[0]['Model']['Driver']);
             newDriver.currUser = 'Driver';
             newDriver.getHTML();
-        })
+        });
     });
 
     $('#NonDrivingHousehold').on('click', () => {
@@ -185,6 +187,8 @@ $('Document').ready(() => {
         }).done((res) => {
             $('#vehicle-form1').empty();
             $('#vehicle-form2').empty();
+            $('#Driver').css({'background': '#fff', 'color': '#00aeef'});
+            $('#NonDrivingHousehold').css({'background': '#00aeef', 'color': '#fff'});
             newDriver = new RenderDriver(res[0]['Model']['HouseHoldMember']);
             newDriver.currUser = 'HouseholdMember'
             newDriver.getHTML();
