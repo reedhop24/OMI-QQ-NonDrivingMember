@@ -4,6 +4,8 @@
 
 ##### The front end makes GET's to either the Driver or the Household Member route and appends that to the corresponding Form. I am making use of the fields handling that is also on my GitHub to actually append the data received from the BackEnd. Then I am then keeping a list of Drivers and Household members that is displayed once the user has entered one. If a user has selected to add a household member, I am indicating that is the form they are on by changing the background color of the selected button, for instance:
 
+![image](https://user-images.githubusercontent.com/40578449/85238487-19cc7800-b3e3-11ea-80db-6fb1204ca8b3.PNG)
+
 ##### If the user has selected a driver, then the form will look as such:
 
 
