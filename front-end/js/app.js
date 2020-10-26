@@ -1,6 +1,6 @@
 $('Document').ready(() => {
 
-    // RenderField Object
+    // RenderField 
     function RenderDriver(arr) {
         this.fields = arr[0]['Fields'];
         this.currUser;
